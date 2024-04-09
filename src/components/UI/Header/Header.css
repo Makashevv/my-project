@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+
+.header_link ul,li {
+  display: inline;
+  margin: 150px;
+  gap: 35px;
+  font-weight: 500;
+}
+
+.header_link--active {
+  color: #0066ff;
+}
+
+
+.logo_BI {
+  /* margin-bottom: 20px; */
+  width: 150px;
+  height: 150px;
+}
+
+.home_inner h1 {
+  text-align: center;
+}
+
+.park_BI{
+  width: 110%;
+  height: 110%;
+}
+
+.section_home h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.section_home p{
+  display: inline-grid;
+}
+
+
+.logo_about{
+  width: 150px;
+  height: 150px;
+}
+
+.contacts_mobile{
+  display: flexbox;
+  margin: 30px;
+  padding: 15px;
+}
+
+.btn_contacts{
+  border-radius: 4px;
+  border-color: rgb(255, 255, 255);
+  font-size: 13px;
+}
+
+.btn_contact{
+  background-color: #4b93ff;
+  color: white;
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 4px;
+  border-color: #4b93ff;
+  font-size: 15px;
+}
+
+.contact_text{
+  font-size: 12px;
+}
+
+.adres{
+  text-align: end;
+  font-size: smaller;
+}
